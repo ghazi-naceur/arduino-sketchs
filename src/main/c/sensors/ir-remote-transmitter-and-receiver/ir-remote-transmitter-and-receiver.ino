@@ -13,7 +13,7 @@ void setup(){
  irrecv.enableIRIn();     
  pinMode(redPin, OUTPUT);     
  pinMode(greenPin, OUTPUT);     
-   pinMode(bluePin, OUTPUT);     
+ pinMode(bluePin, OUTPUT);
 }     
 void loop(){     
    if (irrecv.decode(&results)){     
